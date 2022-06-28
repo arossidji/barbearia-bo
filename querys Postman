@@ -1,0 +1,384 @@
+{
+	"variables": [],
+	"info": {
+		"name": "PrimeiroProjetoAugustoRossi",
+		"_postman_id": "25fc688e-b0de-6b9f-aa9a-c2f38d43f27f",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Calculadora",
+			"request": {
+				"url": "",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Calculadora sub",
+			"request": {
+				"url": "",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Somatorio",
+			"request": {
+				"url": "",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Aluno",
+			"request": {
+				"url": "localhost:8080/api/aluno/099",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Bettina\",\n    \"matricula\": \"099\",\n    \"email\": \"a@a.coom\",\n    \"idade\": 32,\n    \"periodo\": 2,\n    \"nota\": 7\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateAl",
+			"request": {
+				"url": "localhost:8080/api/aluno/099",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Bettina\",\n    \"matricula\": \"099\",\n    \"email\": \"a@a.coom\",\n    \"idade\": 32,\n    \"periodo\": 2,\n    \"nota\": 7\n}"
+				},
+				"description": "a"
+			},
+			"response": []
+		},
+		{
+			"name": "CPF VALIDA",
+			"request": {
+				"url": "localhost:8080/api/aluno/099",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Bettina\",\n    \"matricula\": \"099\",\n    \"email\": \"a@a.coom\",\n    \"idade\": 32,\n    \"periodo\": 2,\n    \"nota\": 7\n}"
+				},
+				"description": "a"
+			},
+			"response": []
+		},
+		{
+			"name": "IMC calc",
+			"request": {
+				"url": "localhost:8080/api/aluno/099",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Bettina\",\n    \"matricula\": \"099\",\n    \"email\": \"a@a.coom\",\n    \"idade\": 32,\n    \"periodo\": 2,\n    \"nota\": 7\n}"
+				},
+				"description": "a"
+			},
+			"response": []
+		},
+		{
+			"name": "Dist Calc",
+			"request": {
+				"url": "localhost:8080/api/aluno/099",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Bettina\",\n    \"matricula\": \"099\",\n    \"email\": \"a@a.coom\",\n    \"idade\": 32,\n    \"periodo\": 2,\n    \"nota\": 7\n}"
+				},
+				"description": "a"
+			},
+			"response": []
+		},
+		{
+			"name": "Triangulo Calc",
+			"request": {
+				"url": "localhost:8080/api/aluno/099",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Bettina\",\n    \"matricula\": \"099\",\n    \"email\": \"a@a.coom\",\n    \"idade\": 32,\n    \"periodo\": 2,\n    \"nota\": 7\n}"
+				},
+				"description": "a"
+			},
+			"response": []
+		},
+		{
+			"name": "Triangulo tipo",
+			"request": {
+				"url": "localhost:8080/api/aluno/099",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Bettina\",\n    \"matricula\": \"099\",\n    \"email\": \"a@a.coom\",\n    \"idade\": 32,\n    \"periodo\": 2,\n    \"nota\": 7\n}"
+				},
+				"description": "a"
+			},
+			"response": []
+		},
+		{
+			"name": "Service Aluno",
+			"request": {
+				"url": "localhost:8080/api/aluno/099",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Bettina\",\n    \"matricula\": \"099\",\n    \"email\": \"a@a.coom\",\n    \"idade\": 32,\n    \"periodo\": 2,\n    \"nota\": 7\n}"
+				},
+				"description": "a"
+			},
+			"response": []
+		},
+		{
+			"name": "AlunoSave Post",
+			"request": {
+				"url": "localhost:8080/api/aluno/099",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Bettina\",\n    \"matricula\": \"099\",\n    \"email\": \"a@a.coom\",\n    \"idade\": 32,\n    \"periodo\": 2,\n    \"nota\": 7\n}"
+				},
+				"description": "a"
+			},
+			"response": []
+		},
+		{
+			"name": "ProdutoSave",
+			"request": {
+				"url": "localhost:8080/api/aluno/099",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Bettina\",\n    \"matricula\": \"099\",\n    \"email\": \"a@a.coom\",\n    \"idade\": 32,\n    \"periodo\": 2,\n    \"nota\": 7\n}"
+				},
+				"description": "a"
+			},
+			"response": []
+		},
+		{
+			"name": "Produtoget",
+			"request": {
+				"url": "localhost:8080/api/aluno/099",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Bettina\",\n    \"matricula\": \"099\",\n    \"email\": \"a@a.coom\",\n    \"idade\": 32,\n    \"periodo\": 2,\n    \"nota\": 7\n}"
+				},
+				"description": "a"
+			},
+			"response": []
+		},
+		{
+			"name": "Comprar",
+			"request": {
+				"url": "localhost:8080/api/aluno/099",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Bettina\",\n    \"matricula\": \"099\",\n    \"email\": \"a@a.coom\",\n    \"idade\": 32,\n    \"periodo\": 2,\n    \"nota\": 7\n}"
+				},
+				"description": "a"
+			},
+			"response": []
+		},
+		{
+			"name": "Vender",
+			"request": {
+				"url": "localhost:8080/api/aluno/099",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Bettina\",\n    \"matricula\": \"099\",\n    \"email\": \"a@a.coom\",\n    \"idade\": 32,\n    \"periodo\": 2,\n    \"nota\": 7\n}"
+				},
+				"description": "a"
+			},
+			"response": []
+		},
+		{
+			"name": "Estoque",
+			"request": {
+				"url": "localhost:8080/api/aluno/099",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Bettina\",\n    \"matricula\": \"099\",\n    \"email\": \"a@a.coom\",\n    \"idade\": 32,\n    \"periodo\": 2,\n    \"nota\": 7\n}"
+				},
+				"description": "a"
+			},
+			"response": []
+		},
+		{
+			"name": "Correcao",
+			"request": {
+				"url": "localhost:8080/api/aluno/099",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Bettina\",\n    \"matricula\": \"099\",\n    \"email\": \"a@a.coom\",\n    \"idade\": 32,\n    \"periodo\": 2,\n    \"nota\": 7\n}"
+				},
+				"description": "a"
+			},
+			"response": []
+		},
+		{
+			"name": "Venda",
+			"request": {
+				"url": "localhost:8080/api/aluno/099",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Bettina\",\n    \"matricula\": \"099\",\n    \"email\": \"a@a.coom\",\n    \"idade\": 32,\n    \"periodo\": 2,\n    \"nota\": 7\n}"
+				},
+				"description": "a"
+			},
+			"response": []
+		},
+		{
+			"name": "Venda copy",
+			"request": {
+				"url": "localhost:8080/api/aluno/099",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Bettina\",\n    \"matricula\": \"099\",\n    \"email\": \"a@a.coom\",\n    \"idade\": 32,\n    \"periodo\": 2,\n    \"nota\": 7\n}"
+				},
+				"description": "a"
+			},
+			"response": []
+		}
+	]
+}
